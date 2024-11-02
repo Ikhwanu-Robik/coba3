@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <h1>Tebak Angka</h1>
     <form action="{{ url('/start') }}" method="post">
         @csrf
         <input type="text" name="name" id="name" placeholder="name">
